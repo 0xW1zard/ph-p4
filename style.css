@@ -1,0 +1,62 @@
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+:root {
+  --main-color: #3a3a3a;
+  --button-color: #e02c6d;
+  --p-color: #6c6c6c;
+  --p-size: 16px;
+  --p-card-col: rgba(120, 120, 133, 1);
+  --card-head: 28px;
+  --card-head-size: rgba(24, 25, 31, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* share */
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/* header */
+
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero{
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 34px;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:var(--main-color) ;
+}
+
+.logo{
+    color: var(--main-color);
+    
+}
