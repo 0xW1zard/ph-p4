@@ -104,10 +104,10 @@ ul li a {
   position: relative;
 }
 
-.hero-image img{
-    position: absolute;
-    top:35px;
-    left: 20px;
+.hero-image img {
+  position: absolute;
+  top: 35px;
+  left: 20px;
 }
 
 .hero-text h1 {
@@ -126,4 +126,71 @@ ul li a {
   justify-content: center;
   gap: 65px;
   margin: 30px 0;
+}
+
+/* Collection */
+
+.collection {
+  margin: 130px auto;
+}
+
+.col-head {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 30px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+  max-width: fit-content;
+  padding: 15px;
+  border-radius: 9px;
+}
+
+.item-name {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.reating,
+.details {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--p-color);
+  line-height: 20px;
+}
+
+.reating {
+  margin-bottom: 5px;
+}
+
+.more {
+  text-align: right;
+    margin-top: 50px;
+}
+
+
+.more a {
+  text-decoration: none;
+  color: var(--button-color);
+  font-size: 16px;
+  font-weight: bold;
+
 }
